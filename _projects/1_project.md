@@ -1,70 +1,96 @@
 ---
-layout: page
-title: Modeling phenomenal similarity of global states of consciousness leveraging LLMs
-description: sentence qualia structure
+layout: distill
+title: sentence qualia structure
+description: Modeling phenomenal similarity of global states of consciousness leveraging LLMs
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
+tags: qualia
+giscus_comments: false
+date: 2024-05-17
+featured: true
+
+authors:
+  - name: Zoe Youngzie Lee
+    affiliations:
+      name: UCLA
+  - name: Norie Kawamura
+    affiliations:
+      name: ATR   
+  - name: Naotsugu Tsuchiya
+    affiliations:
+      name: Monash University
+  - name: Martin Monti
+    affiliations:
+      name: UCLA
+
+
+# bibliography: 2018-12-22-distill.bib
+
+# Optionally, you can add a table of contents to your post.
+# NOTES:
+#   - make sure that TOC names match the actual section names
+#     for hyperlinks within the post to work correctly.
+#   - we may want to automate TOC generation in the future using
+#     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
+toc:
+  - name: Background
+    # if a section has subsections, you can add them as follows:
+    # subsections:
+    #   - name: Example Child Subsection 1
+    #   - name: Example Child Subsection 2
+  - name: Methods
+  - name: Interactive Plots
+
+
+# Below is an example of injecting additional post-specific styles.
+# If you use this post as a template, delete this _styles block.
+_styles: >
+  .fake-img {
+    background: #bbb;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 12px;
+  }
+  .fake-img p {
+    font-family: monospace;
+    color: white;
+    text-align: left;
+    margin: 12px 0;
+    text-align: center;
+    font-size: 16px;
+  }
 ---
 
+## Background
+
 Here we leverage LLMs to derive the similarity structure between phenomenal experiences described in short sentences.
+some background will be added here
+Citations are then used in the article body with the `<d-cite>` tag.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+---
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Methods
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+The key attribute is a reference to the id provided in the bibliography.
+The key attribute can take multiple ids, separated by commas.
+
+The citation is presented inline like this: <d-cite key="gregor2015draw"></d-cite> (a number that displays more information on hover).
+
+Add Details boxes (collapsible boxes which hide additional information from the user) for detailed methods. They can be added with the `details` liquid tag:
+
+{% details Click here to know more %}
+Additional details, where math $$ 2x - 1 $$ and `code` is rendered correctly.
+{% enddetails %}
+
+
+---
+
+## Interactive Plots
+
+You can add interative plots using plotly + iframes :framed_picture:
+
+<div class="l-page">
+  <iframe src="{{ '/assets/plotly/demo.html' | relative_url }}" frameborder='0' scrolling='no' height="500px" width="100%" style="border: 1px dashed grey;"></iframe>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
