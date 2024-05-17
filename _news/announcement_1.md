@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-So excited to give a talk at ASSC27 in Tokyo, Japan, on *Empirical Construction of the Topology of Broader Qualia*! :sparkles:
+At ASSC27 in Tokyo, Japan, giving a talk on *Empirical Construction of the Topology of Broader Qualia*! :sparkles:
