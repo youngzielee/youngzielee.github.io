@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-subtitle: youngzielee (at) ucla (dot) edu
+subtitle: youngzielee@ucla.edu
 
 profile:
   align: right
