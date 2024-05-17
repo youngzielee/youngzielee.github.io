@@ -78,6 +78,8 @@ Details of methods will be added here.
 The citation is presented inline like this: <d-cite key="gregor2015draw"></d-cite> (a number that displays more information on hover).
 
 {% details Click here for hierarchical structure of topics %}
+````markdown
+```typograms
 .
 ├─curiosity_sudden_curious_surprise_pique ── Topic: 88
 │    ├─curiosity_curious_pique_curiosity pique_intrigue ── Topic: 77
@@ -177,6 +179,10 @@ The citation is presented inline like this: <d-cite key="gregor2015draw"></d-cit
      │                             ├─O mental_fog_mental fog_exhaustion_mental exhaustion ── Topic: 17
      │                             └─O clarity_mental_mental clarity_emerge_emotional ── Topic: 9
      └─O focus_attention_focused_heighten focus_mind ── Topic: 19
+
+```
+````
+
 {% enddetails %}
 
 
