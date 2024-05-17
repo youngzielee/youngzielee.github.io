@@ -188,7 +188,7 @@ The citation is presented inline like this: <d-cite key="gregor2015draw"></d-cit
 
 Comparison of similarity structure after topic modeling and merging
 <div class="l-page">
-  <iframe src="{{ '/assets/plotly/gpt_phenomenology_plots/similarity_heatmaps_comparison_postmerge_gpt4-turbo-preview_041624.html' | relative_url }}" frameborder='0' scrolling='no' height="500px" width="100%" style="border: 1px dashed grey;"></iframe>
+  <iframe src="{{ '/assets/plotly/gpt_phenomenology_plots/similarity_heatmaps_comparison_postmerge_gpt4-turbo-preview_041624.html' | relative_url }}" frameborder='0' scrolling='yes' height="500px" width="100%" style="border: 1px dashed grey;"></iframe>
 </div>
 
 
@@ -199,16 +199,16 @@ Comparison of similarity structure after topic modeling and merging
 These are the phenomenological topics we get:
 
 <div class="l-page">
-  <iframe src="{{ '/assets/plotly/gpt_phenomenology_plots/46topics_pyldavis_gpt4-turbo-preview.html' | relative_url }}" frameborder='0' scrolling='no' height="500px" width="100%" style="border: 1px dashed grey;"></iframe>
+  <iframe src="{{ '/assets/plotly/gpt_phenomenology_plots/46topics_pyldavis_gpt4-turbo-preview_041624.html' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 1px dashed grey;"></iframe>
 </div>
 
 which create coherent clusters of items based on phenomenological similarity, not semantic similarity:
 
 <div class="l-page">
-  <iframe src="{{ '/assets/plotly/gpt_phenomenology_plots/affinity_clusters_tsne_043024.html' | relative_url }}" frameborder='0' scrolling='no' height="500px" width="100%" style="border: 1px dashed grey;"></iframe>
+  <iframe src="{{ '/assets/plotly/gpt_phenomenology_plots/affinity_clusters_tsne_043024.html' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 1px dashed grey;"></iframe>
 </div>
 
 Similarity structure of cluster centroids/exemplars:
 <div class="l-page">
-  <iframe src="{{ '/assets/plotly/gpt_phenomenology_plots/affinity_exemplars_similarity_heatmap_043024.html' | relative_url }}" frameborder='0' scrolling='no' height="500px" width="100%" style="border: 1px dashed grey;"></iframe>
+  <iframe src="{{ '/assets/plotly/gpt_phenomenology_plots/affinity_exemplars_similarity_heatmap_043024.html' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 1px dashed grey;"></iframe>
 </div>
