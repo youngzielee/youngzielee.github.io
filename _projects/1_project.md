@@ -75,11 +75,8 @@ Citations are then used in the article body with the `<d-cite>` tag.
 
 Details of methods will be added here.
 
-The citation is presented inline like this: <d-cite key="gregor2015draw"></d-cite> (a number that displays more information on hover).
-
 {% details Click here for hierarchical structure of topics %}
 ````markdown
-```typograms
 .
 ├─curiosity_sudden_curious_surprise_pique ── Topic: 88
 │    ├─curiosity_curious_pique_curiosity pique_intrigue ── Topic: 77
@@ -180,9 +177,7 @@ The citation is presented inline like this: <d-cite key="gregor2015draw"></d-cit
      │                             └─O clarity_mental_mental clarity_emerge_emotional ── Topic: 9
      └─O focus_attention_focused_heighten focus_mind ── Topic: 19
 
-```
 ````
-
 {% enddetails %}
 
 
@@ -199,7 +194,7 @@ Comparison of similarity structure after topic modeling and merging
 These are the phenomenological topics we get:
 
 <div class="l-page">
-  <iframe src="{{ '/assets/plotly/gpt_phenomenology_plots/46topics_pyldavis_gpt4-turbo-preview_041624.html' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 1px dashed grey;"></iframe>
+  <iframe src="{{ '/assets/plotly/gpt_phenomenology_plots/46topics_pyldavis_gpt4-turbo-preview_041624.html' | relative_url }}" frameborder='0' scrolling='yes' height="1000px" width="100%" style="border: 1px dashed grey;"></iframe>
 </div>
 
 which create coherent clusters of items based on phenomenological similarity, not semantic similarity:
