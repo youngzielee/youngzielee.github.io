@@ -2,7 +2,7 @@
 layout: distill
 title: sentence qualia structure
 description: Modeling phenomenal similarity of global states of consciousness leveraging LLMs
-img: assets/img/12.jpg
+img: assets/img/gpt_thumbnail.png
 importance: 1
 category: work
 related_publications: true
