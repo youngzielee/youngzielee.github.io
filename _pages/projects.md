@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: what I've been up to.
+title: research
+permalink: /research/
+description: scholarly projects
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 1
+display_categories: [work]
 horizontal: false
 ---
 
