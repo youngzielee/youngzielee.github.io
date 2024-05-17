@@ -40,10 +40,10 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <!-- last seen at -->
+    <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
-        <a href="{{ '/spotted/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/spotted/' | relative_url }}" style="color: inherit">spotted</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}

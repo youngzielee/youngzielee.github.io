@@ -1,6 +1,6 @@
 ---
 layout: page
-title: last seen
+title: spotted
 permalink: /spotted/
 ---
 
