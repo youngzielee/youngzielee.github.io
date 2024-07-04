@@ -63,17 +63,17 @@ _styles: >
   }
 ---
 
-## Background
+## (Very brief) Introduction
 
-Here we leverage LLMs to derive the similarity structure between phenomenal experiences described in short sentences.
-some background will be added here
-Citations are then used in the article body with the `<d-cite>` tag.
+We leveraged LLMs to derive the similarity structure between phenomenal experiences described in short sentences.
+Our data--sentences borrowed from existing phenomenology questionnaires--can be viewed [here](https://docs.google.com/spreadsheets/d/1Qjf4khRy6IRu-43Q1t3ntakoJ3E2LWPdI5j8iIMIAb8/edit?usp=sharing).
+
 
 ---
 
 ## Methods
 
-Details of methods will be added here.
+We prompted GPT4 (gpt-4-0125-preview) to generate answers "describing an internal aspect of what that experience feels like, such as sensations, perceptions, emotions, or thoughts." Then, we used nonnegative matrix factorization to extract 50 latent dimensions of phenomenal features. These dimensions seemed to be hierarchical, and we merged some topics (4, 43, 36, 27, 8, 24, 20, 0), resulting in the final 46 topics.
 
 {% details Click here for hierarchical structure of topics %}
 ````markdown
@@ -191,7 +191,7 @@ Comparison of similarity structure after topic modeling and merging
 
 ## Interactive Plots
 
-These are the phenomenological topics we get:
+These are the phenomenological topics we get (pretty coherent and interpretable!):
 
 <div class="l-page">
   <iframe src="{{ '/assets/plotly/gpt_phenomenology_plots/46topics_pyldavis_gpt4-turbo-preview_041624.html' | relative_url }}" frameborder='0' scrolling='yes' height="1000px" width="100%" style="border: 1px dashed grey;"></iframe>
