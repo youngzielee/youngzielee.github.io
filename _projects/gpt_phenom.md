@@ -208,6 +208,18 @@ Similarity structure of cluster centroids (exemplars):
   <iframe src="{{ '/assets/plotly/gpt_phenomenology_plots/affinity_exemplars_similarity_heatmap_043024.html' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 1px dashed grey;"></iframe>
 </div>
 
+
+We compared this model-derived similarity structure of 70 items with human-judgment-based similarity structures:
+<div class="l-page">
+  <iframe src="{{ '/assets/plotly/gpt_phenomenology_plots/similarity_matrices_70 items_46topics.html' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 1px dashed grey;"></iframe>
+</div>
+
+Correlation between model v. humans (feature-agreement): r=0.35 (lower-bound: r=0.26), p<0.001
+Correlation between model v. humans (pairwise-judgment): r=0.23, p<0.001
+Correlation between humans (feature-agreement) v. humans (pairwise-judgment): r=0.22, p<0.001
+
+
+
 Since our data comes from phenomenology questionnaires, we can see 'where in the space' each questionnaire item covers (in the legend, double-click on 'trace 0' and single-click on the instrument of interest):
 <div class="l-page">
   <iframe src="{{ '/assets/plotly/gpt_phenomenology_plots/affinity_clusters_tsne_instrument_groups_070424.html' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 1px dashed grey;"></iframe>
