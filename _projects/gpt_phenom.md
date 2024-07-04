@@ -203,7 +203,12 @@ which create coherent clusters of items based on phenomenological similarity, no
   <iframe src="{{ '/assets/plotly/gpt_phenomenology_plots/affinity_clusters_tsne_043024.html' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 1px dashed grey;"></iframe>
 </div>
 
-Similarity structure of cluster centroids/exemplars:
+Similarity structure of cluster centroids (exemplars):
 <div class="l-page">
   <iframe src="{{ '/assets/plotly/gpt_phenomenology_plots/affinity_exemplars_similarity_heatmap_043024.html' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 1px dashed grey;"></iframe>
+</div>
+
+Since our data comes from phenomenology questionnaires, we can see 'where in the space' each questionnaire item covers (in the legend, double-click on 'trace 0' and single-click on the instrument of interest):
+<div class="l-page">
+  <iframe src="{{ '/assets/plotly/gpt_phenomenology_plots/affinity_clusters_tsne_instrument_groups_070424.html' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 1px dashed grey;"></iframe>
 </div>
