@@ -10,7 +10,7 @@ nav_order: 3
 ### as an instructor
 | Course Title | Date | Program |
 |--------------|------|---------|
-| *Mechanical Mind and Mind-like Machinery: Intro to AI and Consciousness* | Spring 2019 | UCLA Undergraduate Student Initiated Education (USIE) |
+| **Mechanical Mind and Mind-like Machinery: Intro to AI and Consciousness** | Spring 2019 | UCLA Undergraduate Student Initiated Education (USIE) |
 | *Searching for Minds, Empirically: Intro to the Neuroscience of Consciousness* | July 2020 | MIT HSSP |
 | *Searching for Minds, Metaphysically: Intro to Philosophy of Consciousness* | May 2020 | LU Rainstorm |
 | *Puzzling Paradoxes of Reality: Philosophical Puzzles in Metaphysics* | Feb 2019 | Claremont Splash |
@@ -25,7 +25,7 @@ nav_order: 3
 
 | Course Title | Quarter(s) Taught |
 |--------------|-------------------|
-| **Introduction to Functional Neuroimaging** | Fall 2024 | 
+| *Introduction to Functional Neuroimaging* | Fall 2024 | 
 | **Laboratory in Cognitive Psychology (ongoing)** | Spring 2025, Winter 2025 |
 | **Laboratory in Cognitive Psychology: Neural Networks** | Winter 2024 |
 | **Introduction to Cognitive Psychology** | Summer 2024, Fall 2023, Summer 2023 |
