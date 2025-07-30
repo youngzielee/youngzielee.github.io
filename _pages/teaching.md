@@ -11,9 +11,8 @@ nav_order: 3
 | Course Title | Date | Program |
 |--------------|------|---------|
 | Mechanical Mind and Mind-like Machinery: Intro to AI and Consciousness | Spring 2019 | UCLA USIE |
-| Searching for Minds, Empirically: Intro to the Neuroscience of Consciousness | July 2020 | MIT HSSP |
-| Searching for Minds, Metaphysically: Intro to Philosophy of Consciousness | May 2020 | LU Rainstorm |
-| Puzzling Paradoxes of Reality: Philosophical Puzzles in Metaphysics | Feb 2019 | Claremont Splash |
+| Searching for Minds, Empirically & Metaphysically: Intro to the Neuroscience and Philosophy of Consciousness | July 2020 | MIT HSSP |
+| Puzzling Paradoxes of Reality: Philosophical Puzzles in Metaphysics | Feb 2019, May 2020 | Claremont Splash, LU Rainstorm|
 | Mind-Reading and Mind-Control: How to Measure and Manipulate Your Brain | Nov 2019 | MIT Splash |
 | The “High” Brain: Your Brain on Psychotropic Drugs | Apr 2019 | UCLA Splash |
 | Music for Emotional Humans: Emotion Recognition in Film Music | Oct 2018 | USC Splash |
