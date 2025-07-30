@@ -21,4 +21,4 @@ I'm currently a PhD student in Computational Cognition at University of Californ
 
 Before that, I studied Cognitive Science and Philosophy. 
 
-If I'm not thinking about the mind, I'm either fulfilling CEO duties at [Learning Unlimited](https://www.learningu.org/) or fiddling with cameras and different gadgets.
+If I'm not thinking about the mind, I'm working on education outreach at [Learning Unlimited](https://www.learningu.org/) or fiddling with cameras or hiking in the mountains or hanging out with my cats.
