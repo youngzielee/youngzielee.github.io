@@ -7,4 +7,4 @@ nav: true
 nav_order: 5
 ---
 
-coming soon
+{% include featuredfotos.html %}
