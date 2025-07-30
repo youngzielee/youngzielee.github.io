@@ -19,7 +19,6 @@ nav_order: 3
 | Dazed and Confused: The Science and Art of Optical Illusions | Mar 2018 | MIT Spark |
 | Looking through the Lens of the Mind’s Eye: The Science and Philosophy of Imagination | Feb 2018 | MIT Splash |
 
-&nbsp;
 
 ### As a Teaching Fellow
 
@@ -35,7 +34,6 @@ nav_order: 3
 | Logic, First Course | Fall 2016 – Spring 2019 |
 | Logic, Second Course | Fall 2016 – Spring 2019 |
 
-&nbsp;
 
 ### Educational Outreach
 
