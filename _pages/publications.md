@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /publications/
-title: publications
-description: my output so far!
+permalink: /research/
+title: research
+description: scholarly projects
 nav: true
 nav_order: 2
 ---
