@@ -17,5 +17,5 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I'm currently a PhD student at University of California, Los Angeles (UCLA).
-I do research on the structure and measurement of phenomenal consciousness using computational tools.
+I'm currently a PhD student at University of California, Los Angeles (UCLA). I studied Cognitive Science and Philosophy before that.
+I do research on the structure and measurement of phenomenal consciousness using computational tools and neural network models.
