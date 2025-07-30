@@ -18,4 +18,4 @@ social: false # includes social icons at the bottom of the page
 ---
 
 I'm currently a PhD student at University of California, Los Angeles (UCLA).
-I do research on phenomenal consciousness and the structure and measurement of it using computational tools.
+I do research on the structure and measurement of phenomenal consciousness using computational tools.
