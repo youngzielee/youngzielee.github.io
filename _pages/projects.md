@@ -3,7 +3,7 @@ layout: page
 title: research
 permalink: /research/
 description: scholarly projects
-nav: true
+nav: false
 nav_order: 1
 display_categories: [work]
 horizontal: false
