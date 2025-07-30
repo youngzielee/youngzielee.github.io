@@ -19,7 +19,8 @@ nav_order: 3
 | Dazed and Confused: The Science and Art of Optical Illusions | Mar 2018 | MIT Spark |
 | Looking through the Lens of the Mind’s Eye: The Science and Philosophy of Imagination | Feb 2018 | MIT Splash |
 
-<br>
+<div style="margin-top: 2rem;"></div>
+
 
 ### As a Teaching Fellow
 
