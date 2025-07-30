@@ -7,7 +7,7 @@ subtitle: Hi! Some things I do live here. Enjoy!
 
 profile:
   align: right
-  image: zoe_room.jpg
+  image: 1201-1911.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p> </p>
