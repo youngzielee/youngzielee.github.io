@@ -21,17 +21,4 @@ layout: default
     {% endif %}
   </header>
 
-  <article>
-    <p>
-      You can view or download my full CV as a PDF here:
-      {% if page.cv_pdf %}
-        <a
-          href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-          target="_blank"
-          rel="noopener noreferrer"
-          >View CV</a
-        >.
-      {% endif %}
-    </p>
-  </article>
 </div>
