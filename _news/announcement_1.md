@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-In Tokyo presenting *Empirical Construction of the Topology of Broader Qualia* :sparkles:
+in Tokyo presenting *Empirical Construction of the Topology of Broader Qualia* :sparkles:
