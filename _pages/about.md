@@ -19,6 +19,6 @@ social: false # includes social icons at the bottom of the page
 
 I'm currently a PhD student in Computational Cognition at University of California, Los Angeles (UCLA). I do research on the structure and measurement of phenomenal consciousness using computational tools and neural network models.
 
-Before that, I studied Cognitive Science and Philosophy. 
+Before that, I studied Cognitive Science and Philosophy at UCLA. 
 
 If I'm not thinking about the mind, I'm working on education outreach at [Learning Unlimited](https://www.learningu.org/) or fiddling with cameras or hiking in the mountains or hanging out with my cats.
