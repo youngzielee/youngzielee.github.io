@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: multimodal qualia structure: material perception
+title: multimodal qualia structure
 description: Modeling sensory-semantic integration in humans and machines
 img: assets/img/gpt_thumbnail.png
 permalink: /projects/material_percept_qualia/
